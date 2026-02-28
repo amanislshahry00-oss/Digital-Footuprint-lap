@@ -10,11 +10,11 @@
  <button onelick="aswerQuestion('no')">no<"/button> 
    <h2>id="result"></h2>
    <script>
-     let score=0;
+     let riskscore=0;
 
      function answerQuestion (answer) {
        if (answer=== "yes") {
-         score+=20;
+         riskscore+=20;
        }
        document.getElementByid("result").innerText="YOUR Risk score:"+score;
      }
@@ -22,5 +22,6 @@
   
 </body>
  </html>
+
 
 
